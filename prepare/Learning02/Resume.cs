@@ -10,6 +10,7 @@ public class Resume
         Console.WriteLine(" I was working in: ");
         foreach (Job job in _job)
         {
+            
             job.Display();
         }
     }

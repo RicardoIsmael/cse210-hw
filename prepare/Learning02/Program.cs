@@ -17,10 +17,17 @@ class Program
       job2._year1 = 2019;
       job2._year2 = 2022;
 
+      Job job3 = new Job();
+      job3._title = "accounting";
+      job3._company = "arcor";
+      job3._year1 = 1234;
+      job3._year2 = 2314;
+
       Resume resume1 = new Resume();
       resume1._name = "Renato Guemez";
       resume1._job.Add(job1);
       resume1._job.Add(job2);
+      resume1._job.Add(job3);
       resume1.Display();
       
 
